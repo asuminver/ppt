@@ -79,7 +79,7 @@ public class MoveWords{
 			}else if(second_i == 3){
 				return GANA;
 
-			}else if(second_i == 4){
+			}else{
 				return PIERDE;
 
 			}
@@ -94,7 +94,7 @@ public class MoveWords{
 			}else if(second_i == 3){
 				return PIERDE;
 
-			}else if(second_i == 4){
+			}else{
 				return GANA;
 
 			}
@@ -109,7 +109,7 @@ public class MoveWords{
 			}else if(second_i == 3){
 				return GANA;
 
-			}else if(second_i == 4){
+			}else{
 				return PIERDE;
 
 			}
@@ -122,9 +122,9 @@ public class MoveWords{
 				return GANA;
 
 			}else if(second_i == 2){
-				return PIERDA;
+				return PIERDE;
 
-			}else if(second_i == 4){
+			}else{
 				return GANA;
 
 			}
@@ -139,11 +139,12 @@ public class MoveWords{
 			}else if(second_i == 2){
 				return GANA;
 
-			}else if(second_i == 3){
+			}else{
 				return PIERDE;
 
 			}
 		}
+		
 	}
 
 } 
